@@ -52,7 +52,8 @@ var avoidinnerHTML = false;   // set true if assigning to innerHTML gives error
 var displaystyle = true;      // puts limits above and below large operators
 var showasciiformulaonhover = true; // helps students learn ASCIIMath
 var decimalsign = ".";        // change to "," if you like, beware of `(1,2)`!
-var AMdelimiter1 = "`", AMescape1 = "\\\\`"; // can use other characters
+// var AMdelimiter1 = "`", AMescape1 = "\\\\`"; // can use other characters
+var AMdelimiter1 = "[", AMescape1 = "\\\\]"; // can use other characters
 // var AMdelimiter2 = "[[ ", AMescape2 = "\\\\ ]]";
 var AMdocumentId = "wikitext" // PmWiki element containing math (default=body)
 var checkforprocessasciimathinmoodle = false; // true for systems like Moodle
