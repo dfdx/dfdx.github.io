@@ -3,8 +3,6 @@ layout: post
 title: Basic Math
 ---
 
-Here's example ... of ellipsis
-
 # Basic Math
 
 Many posts in this blog will discuss mathematical and statistical techniques, so it's worth to define core concepts we will utilize. This post is about math basics, while next one will be about probability theory. 

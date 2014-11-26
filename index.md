@@ -1,15 +1,16 @@
 ---
-title: Hello, World!
+title: df/dx
+layout: post
 ---
 
-## Let's get it started
+## Math, Mines and Muffins
 
-some fake content
+Recent Posts
 
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      {{ post.date || date_to_string }}&nbsp;<a href="{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
