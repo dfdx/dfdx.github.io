@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Basic Math
+layout: default
 ---
 
 # Basic Math

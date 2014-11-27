@@ -1,9 +1,9 @@
 ---
 title: df/dx
-layout: post
+layout: default
 ---
 
-## Math, Mines and Muffins
+## Math, Minds and Muffins
 
 Recent Posts
 
@@ -14,3 +14,4 @@ Recent Posts
     </li>
   {% endfor %}
 </ul>
+

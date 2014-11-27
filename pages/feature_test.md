@@ -1,6 +1,6 @@
 ---
 title: Test Post
-layout: post
+layout: default
 ---
 
 

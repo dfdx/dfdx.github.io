@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>df/dx</title>
+  <title>{{ page.title }}</title>
   <meta charset="utf-8">
   <script type="text/javascript"
 	  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_HTMLorMML.js">
@@ -17,7 +17,9 @@
       }
     });
   </script>
-  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link href="{{ site.url }}/pages/site.atom" rel="alternate" 
+	title="df/dx - Atom" type="application/atom+xml">
+  <link rel="stylesheet" href="{{ site.url }}/css/bootstrap.min.css">
   <style>
     body {
       font-size: 17px; 
@@ -31,23 +33,12 @@
   </style>
 </head>
 <body>
-  <div style="width: 1000px; margin-right: auto; margin-left: auto;">
-    <h2 id="math-mines-and-muffins">Math, Mines and Muffins</h2>
-
-<p>Recent Posts</p>
-
-<ul>
-  
-    <li>
-      02 Nov 2014&nbsp;<a href="/2014/11/02/basic-math/">Basic Math</a>
-    </li>
-  
-    <li>
-      01 Nov 2014&nbsp;<a href="/2014/11/01/infinite-monkeys/">Infinite Monkeys</a>
-    </li>
-  
-</ul>
-
+  <div id="wrapper">
+    <div style="width: 960px; margin-right: auto; margin-left: auto;">
+      {{ content }}
+    </div>
   </div>
+  <br/>
+  <br/>
 </body>
 </html>

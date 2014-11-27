@@ -1,6 +1,6 @@
 ---
 title: Infinite Monkeys
-layout: post
+layout: default
 ---
 
 # Infinite Monkeys
