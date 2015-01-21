@@ -15,3 +15,6 @@ Recent Posts
   {% endfor %}
 </ul>
 
+Pages
+
+[What to Read]({{ site.url }}/pages/what-to-read)
